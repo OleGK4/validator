@@ -1,0 +1,21 @@
+{
+  "name": "gr411_kaoev/validator",
+  "description": "Validators",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "olegk4",
+      "email": "oleg.krut.64@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.4 | ^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Validator\\": "src/"
+    }
+  }
+}
